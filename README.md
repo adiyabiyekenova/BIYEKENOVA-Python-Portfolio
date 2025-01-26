@@ -24,8 +24,3 @@ I plan to organize the repository as follows:
 4. **Scripts**: Reusable Python scripts for data preprocessing, utility functions, and automation.
 5. **Case Studies**: End-to-end projects addressing real-world business problems.
 
----
-
-## Getting Started 🚀
-Feel free to explore the repository! Each folder contains its respective project, along with a detailed `README` file explaining the project's objective, methodology, and outcomes.
- 
