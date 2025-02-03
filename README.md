@@ -23,5 +23,4 @@ I plan to organize the repository as follows:
 3. **Models**: Machine learning and deep learning projects using libraries like Scikit-learn, TensorFlow, and PyTorch.
 4. **Scripts**: Reusable Python scripts for data preprocessing, utility functions, and automation.
 5. **Case Studies**: End-to-end projects addressing real-world business problems.
-6. 
 
