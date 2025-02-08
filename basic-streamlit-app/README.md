@@ -17,9 +17,4 @@ This is a simple Streamlit app that allows you to explore a dataset interactivel
 
 ## How to Run the App
 
-To run this app locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/BIYEKENOVA-Python-Portfolio.git
-
+To run this app locally, Run the Streamlit app (streamlit run basic_streamlit_app/main.py)
