@@ -36,3 +36,7 @@ To run it, simply follow these instructions:
 2. Run the following command:
    ```bash
    streamlit run main.py
+
+---
+
+## Tidy Data Project 
