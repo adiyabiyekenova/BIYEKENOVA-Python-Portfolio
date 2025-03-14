@@ -40,3 +40,18 @@ To run it, simply follow these instructions:
 ---
 
 ## Tidy Data Project 
+This project applies the principles of **tidy data** to clean, reshape, and visualize datasets. The project focuses on structuring data to ensure each variable has its own column, each observation is in its own row, and different types of data are stored in separate tables. You can find the project inside the [TidyData-Project folder](https://github.com/adiyabiyekenova/TidyData-Project)
+
+### Why It Matters:  
+This project demonstrates my ability to work with raw data, perform transformations, and create meaningful visualizations. By applying data cleaning techniques, I showcase my proficiency in Python and libraries such as **pandas, seaborn, and matplotlib**.
+
+### How It Complements My Portfolio:  
+- Strengthens my **data wrangling** and **visualization** skills.  
+- Aligns with my focus on **business analytics and computing**.  
+- Enhances my ability to **prepare raw datasets for real-world applications**.
+
+### Instructions:
+1. Navigate to the `TidyData-Project` folder.
+2. Launch and run the jupyter notebook. 
+
+---
