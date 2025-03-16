@@ -40,7 +40,7 @@ To run it, simply follow these instructions:
 ---
 
 ## Tidy Data Project 
-This project applies the principles of **tidy data** to clean, reshape, and visualize datasets. The project focuses on structuring data to ensure each variable has its own column, each observation is in its own row, and different types of data are stored in separate tables. You can find the project inside the [TidyData-Project folder](https://github.com/adiyabiyekenova/TidyData-Project)
+This project applies the principles of **tidy data** to clean, reshape, and visualize datasets. The project focuses on structuring data to ensure each variable has its own column, each observation is in its own row, and different types of data are stored in separate tables. You can find the project inside the [TidyData-Project folder](https://github.com/adiyabiyekenova/BIYEKENOVA-Python-Portfolio/tree/main/TidyData-Project)
 
 ### Why It Matters:  
 This project demonstrates my ability to work with raw data, perform transformations, and create meaningful visualizations. By applying data cleaning techniques, I showcase my proficiency in Python and libraries such as **pandas, seaborn, and matplotlib**.
