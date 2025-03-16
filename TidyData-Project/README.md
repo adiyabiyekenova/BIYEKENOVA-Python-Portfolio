@@ -17,26 +17,23 @@ The Jupyter notebook includes comments for the code and markdown cells that expl
 ---
 
 ## ⚙️ Instructions
-
 ### 📌 Prerequisites
 To run this project, you will need the following dependencies:
-
+```bash
 pip install pandas matplotlib seaborn jupyterlab
-
+```
 
 ### 🚀 Running the Notebook
 1. **Clone this repository:**
-   
-bash
+   ```bash
    git clone https://github.com/adiyabiyekenova/TidyData-Project.git
    cd TidyData-Project
-
+   ```
 2. **Launch Jupyter Notebook:**
-   
-bash
+   ```bash
    jupyter lab
-
-3. **Open and run** tidy_data_project.ipynb to execute data cleaning and visualizations.
+   ```
+3. **Open and run** `tidy_data_project.ipynb` to execute data cleaning and visualizations.
 
 ---
 
