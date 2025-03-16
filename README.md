@@ -39,7 +39,7 @@ To run it, simply follow these instructions:
 
 ---
 
-## Tidy Data Project 
+## Tidy Data Project 📊
 
 This project applies the principles of **tidy data** to clean, reshape, and visualize datasets. The project focuses on structuring data to ensure:
 - Each variable has its own column.
