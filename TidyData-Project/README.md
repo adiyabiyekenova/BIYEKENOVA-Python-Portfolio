@@ -20,8 +20,8 @@ The Jupyter notebook includes comments for the code and markdown cells that expl
 
 ### 📌 Prerequisites
 To run this project, you will need the following dependencies:
-```bash
 pip install pandas matplotlib seaborn jupyterlab
+
 
 ### 🚀 Running the Notebook
 1. **Clone this repository:**
