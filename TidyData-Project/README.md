@@ -60,10 +60,10 @@ The data comes directly from the *American Association for the Advancement of Sc
 This project includes multiple visualizations to help analyze the dataset:
 
 1. 📈 **R&D Budget Trends as % of GDP** - A line chart showing how department-wise budgets compare to GDP over time.
-   !(https://github.com/adiyabiyekenova/BIYEKENOVA-Python-Portfolio/blob/main/TidyData-Project/visualization1.png)
+   ![Visualization](images/visualization1.png)
 
 2. 📊 **Total R&D Spending vs. GDP** - A dual-axis plot comparing total R&D spending with GDP growth.
-   ![Visualization Example](http://github.com/adiyabiyekenova/BIYEKENOVA-Python-Portfolio/blob/main/TidyData-Project/visualization2.png)
+   ![Visualization](images/visualization2.png)
 
 ### Key Findings:
 - Both **R&D spending** and **GDP** have grown significantly over the years, but GDP has grown at a much larger pace than R&D spending.
