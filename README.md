@@ -70,3 +70,29 @@ This project demonstrates my ability to work with raw data, perform transformati
 **Feel free to explore and learn from the project!**
 
 ---
+
+### Custom Named Entity Recognition (NER) App 🧠
+
+This interactive web app lets users define their own **Named Entity Recognition (NER)** rules and apply them instantly to any text. Built with **spaCy** and **Streamlit**, the app offers a no-code interface to experiment with NER by adding patterns, analyzing text, and visualizing detected entities.
+
+You can find the full project inside the [NERStreamlitApp](https://github.com/adiyabiyekenova/BIYEKENOVA-Python-Portfolio/tree/main/NERStreamlitApp) folder.
+
+#### What the App Does
+- Accepts custom text or `.txt` file uploads.
+- Lets users create and manage custom entity labels and patterns.
+- Applies those patterns to text using spaCy’s `EntityRuler`.
+- Displays results through interactive visualizations and clean summaries.
+
+### Why It Matters
+
+This project demonstrates my understanding of **Natural Language Processing** concepts, particularly how to fine-tune spaCy pipelines for domain-specific needs. It shows that I can go beyond using pre-trained models and create tools that bridge user needs with complex NLP frameworks — all through a simple and intuitive UI.
+
+### How It Complements My Portfolio
+
+- **Expands my NLP skill set** by showing I can work with rule-based and customizable text processing techniques.
+- **Highlights my frontend/backend integration** skills with Streamlit and spaCy.
+- **Reinforces my interest in building human-centered tools** that make advanced technology accessible to non-technical users.
+- **Aligns with my interdisciplinary focus** on computing and business analytics by tackling unstructured text data — a growing need across industries.
+
+**Feel free to explore the app and test it with your own text!**
+
