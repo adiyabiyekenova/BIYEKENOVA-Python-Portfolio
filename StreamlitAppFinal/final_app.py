@@ -27,13 +27,28 @@ with col2:
         """
     )
 
-    # Call to action
-    st.success("👉 Use the sidebar to navigate between tools!")
-    
-    # Add a button with animation
-    if st.button("🚀 Go to Dashboard"):
-        st.toast("Navigation is on the left sidebar!", icon="📂")
-        st.markdown("### Navigate using the sidebar menu ➡️")
+    # Add 3 buttons for navigation
+    st.write("---")  # Divider between sections
+
+    st.markdown("<h4 style='text-align: center;'>Navigate to:</h4>", unsafe_allow_html=True)
+
+    # Button to go to Historical Prices page
+    if st.button("📈 Historical Prices"):
+        st.session_state.page = "1_Historical_Prices"
+        st.experimental_rerun()
+
+    # Button to go to Compare Companies page
+    if st.button("🏢 Compare Companies"):
+        st.session_state.page = "2_Compare_Companies"
+        st.experimental_rerun()
+
+    # Button to go to Valuation Multiples page
+    if st.button("💰 Valuation Multiples"):
+        st.session_state.page = "3_Valuation_Multiples"
+        st.experimental_rerun()
+
+    st.write("---")
+    st.success("👉 Use the buttons above to navigate!")
 
 st.write("---")
 st.caption("Made with ❤️ using Streamlit • Designed for finance pros")
