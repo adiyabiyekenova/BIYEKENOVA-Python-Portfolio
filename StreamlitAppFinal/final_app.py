@@ -6,7 +6,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📈 Finance and Investment Banking Dashboard")
+st.title("📈 Finance Dashboard")
 st.markdown("Welcome to the finance dashboard. Use the sidebar to navigate.")
 
 st.sidebar.success("Select a page above.")
