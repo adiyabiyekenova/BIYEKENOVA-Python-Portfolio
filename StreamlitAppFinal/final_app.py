@@ -1,9 +1,7 @@
 import streamlit as st
 
+# Set up page configuration
 st.set_page_config(page_title="Investment Insights App", layout="wide")
-
-# Optional: Add logo or header image
-# st.image("your_logo.png", width=200)
 
 # Title & Subtitle
 st.markdown("<h1 style='text-align: center;'>📊 Investment Insights App</h1>", unsafe_allow_html=True)
@@ -50,5 +48,25 @@ with col2:
     st.write("---")
     st.success("👉 Use the buttons above to navigate!")
 
-st.write("---")
-st.caption("Made with ❤️ using Streamlit • Designed for finance pros")
+# Handling session state for page routing
+if "page" not in st.session_state:
+    st.session_state.page = "1_Historical_Prices"  # Default page
+
+# Conditionally render pages based on selected page in session state
+if st.session_state.page == "1_Historical_Prices":
+    # Display the content for the "Historical Prices" page
+    st.write("## 📈 Historical Stock Prices")
+    st.write("This is where the content for Historical Prices page will go.")
+    # You can import and add the content for this page here, such as the stock price graph.
+
+elif st.session_state.page == "2_Compare_Companies":
+    # Display the content for the "Compare Companies" page
+    st.write("## 🏢 Compare Companies")
+    st.write("This is where the content for Compare Companies page will go.")
+    # Import and add the content for this page (e.g., the company comparison tool).
+
+elif st.session_state.page == "3_Valuation_Multiples":
+    # Display the content for the "Valuation Multiples" page
+    st.write("## 💰 Valuation Multiples")
+    st.write("This is where the content for Valuation Multiples page will go.")
+    # Add the content related to valuation multiples here.
