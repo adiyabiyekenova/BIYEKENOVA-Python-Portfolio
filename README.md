@@ -1,5 +1,4 @@
 # BIYEKENOVA-Python-Portfolio
-A collection of my Python-based projects and analyses for the Elements of Computing class in Spring 2025 semester.
 
 Welcome to my **Python Portfolio**! This repository serves as a collection of my Python-based projects for the Elements of Computing class in Spring 2025 semester.
 
@@ -8,34 +7,33 @@ Welcome to my **Python Portfolio**! This repository serves as a collection of my
 ## Repository Purpose 📌
 This portfolio showcases my:
 - Exploratory Data Analysis (EDA) techniques
+- Natural Language Processing (NLP) knowledge and implementation
 - Data visualizations and storytelling
-- Predictive modeling and machine learning projects
 - Implementation of advanced Python libraries and frameworks
 
-Each project in this repository is aimed at demonstrating my technical skills and problem-solving approach.
+Each project in this repository is aimed at demonstrating my technical skills and problem-solving approach. 
 
 ---
 
-## Organization Plan 🗂️
-I plan to organize the repository as follows:
-1. **EDA**: Projects focusing on data cleaning, exploration, and descriptive statistics.
-2. **Visualizations**: Notebooks with insightful data visualizations using tools like Matplotlib, Seaborn, and Plotly.
-3. **Models**: Machine learning and deep learning projects using libraries like Scikit-learn, TensorFlow, and PyTorch.
-4. **Scripts**: Reusable Python scripts for data preprocessing, utility functions, and automation.
-5. **Case Studies**: End-to-end projects addressing real-world business problems.
+## Organization 🗂️
+My Python Portfolio consists of the 4 main projects each with its own folder with the code and a very brief description below. Feel free to explore any of the projects by reading their brief introduction below and explooring the specific folders. 
+1. My First Streamlit App
+2. Tidy Data Project
+3. Custom Named Entity Recognition App
+4. Investment Insights App  
 
 ---
 
 ## My First Streamlit App 🌟
 This project includes my **first Streamlit app** that displays a sample dataset and allows interactive filtering options. You can find the app inside the [basic-streamlit-app folder](basic-streamlit-app). 
 
-To run it, simply follow these instructions:
+### What the App Does
 
-### Instructions:
-1. Navigate to the `basic-streamlit-app` folder.
-2. Run the following command:
-   ```bash
-   streamlit run main.py
+### Why It Matters 
+
+### How It Complements My Portfolio 
+
+### Instructions 
 
 ---
 
@@ -61,23 +59,17 @@ This project demonstrates my ability to work with raw data, perform transformati
 2. Read the initial README page.
 3. Launch and run the Jupyter notebook.
 
-### Importance for My Future Career  
-1. It is a requirement for the **Elements of Computing** class and will contribute to my grade.
-2. Prepares me to understand the principles of tidy data and apply them in real-world projects.
-3. Provides insight into **visualization** techniques and working with **pivot tables**.
-4. Marks one of my first fully independent projects, demonstrating my ability to handle data cleaning and analysis.
-
 **Feel free to explore and learn from the project!**
 
 ---
 
-### Custom Named Entity Recognition (NER) App 🧠
+## Custom Named Entity Recognition (NER) App 🧠
 
 This interactive web app lets users define their own **Named Entity Recognition (NER)** rules and apply them instantly to any text. Built with **spaCy** and **Streamlit**, the app offers a no-code interface to experiment with NER by adding patterns, analyzing text, and visualizing detected entities.
 
 You can find the full project inside the [NERStreamlitApp](https://github.com/adiyabiyekenova/BIYEKENOVA-Python-Portfolio/tree/main/NERStreamlitApp) folder.
 
-#### What the App Does
+### What the App Does
 - Accepts custom text or `.txt` file uploads.
 - Lets users create and manage custom entity labels and patterns.
 - Applies those patterns to text using spaCy’s `EntityRuler`.
@@ -93,6 +85,11 @@ This project demonstrates my understanding of **Natural Language Processing** co
 - **Highlights my frontend/backend integration** skills with Streamlit and spaCy.
 - **Reinforces my interest in building human-centered tools** that make advanced technology accessible to non-technical users.
 - **Aligns with my interdisciplinary focus** on computing and business analytics by tackling unstructured text data — a growing need across industries.
+
+### Instructions:
+1. Navigate to the `TidyData-Project` folder.
+2. Read the initial README page.
+3. Launch and run the Jupyter notebook.
 
 **Feel free to explore the app and test it with your own text!**
 
