@@ -48,9 +48,9 @@ The **Palmer's Penguins dataset** is a popular dataset used in data science and 
 
 ## 📊 App Preview
 
-> *Include a screenshot or image of your Streamlit app here.*
+![Output](Screenshot1.png)
 
-This section should show how the app filters and updates the dataset when a user selects a specific species from the dropdown.
+This is how the app filters and updates the dataset when a user selects a specific species from the dropdown.
 
 ---
 
@@ -70,14 +70,4 @@ This section should show how the app filters and updates the dataset when a user
 
 ---
 
-## 📎 References
-
-- [Tidy Data – Hadley Wickham](https://vita.had.co.nz/papers/tidy-data.pdf)  
-- [Tidy Data Cheat Sheet – RStudio](https://www.rstudio.com/resources/cheatsheets/)
-
----
-
 ## 🚀 Happy Coding!
-
-Feel free to submit issues or contribute through pull requests. Let’s build cool things together!
-
