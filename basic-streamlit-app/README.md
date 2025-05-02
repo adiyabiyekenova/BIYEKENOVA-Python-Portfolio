@@ -6,7 +6,7 @@ This project is part of the **Elements of Computing II Portfolio Update 1** and 
 
 ### ✅ App Features
 
-1. Displayed the Palmer's Penguins dataset. [Dataset link](data/pemguins.csv)
+1. Displayed the Palmer's Penguins dataset. [Dataset link](data/penguins.csv)
 2. Implemented a **dropdown menu** to select specific species.
 3. **Filtered the entire dataset** based on the selected species from the dropdown menu.
 
