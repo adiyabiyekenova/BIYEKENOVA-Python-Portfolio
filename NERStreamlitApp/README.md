@@ -118,6 +118,25 @@ After clicking "Analyze Text", the app displays results using spaCy’s displacy
 
 ---
 
+## 🛠️ Tools & Libraries Used
+
+- **spaCy**: For natural language processing and custom NER pipeline using `EntityRuler` and `displacy` visualizer.  
+- **Streamlit**: To create an interactive, no-code web interface.  
+- **pandas**: Used for managing and displaying structured entity data.   
+- **spaCy language model**: `en_core_web_sm` for basic linguistic annotations.
+
+---
+
+## 🧠 Skills Gained
+
+- **Natural Language Processing (NLP)**: Deepened understanding of Named Entity Recognition and rule-based matching techniques.  
+- **Custom NER Pipelines**: Learned how to create and manage custom entity rules using spaCy's `EntityRuler`.  
+- **Interactive Web App Development**: Gained hands-on experience using Streamlit to build and deploy intuitive user interfaces.  
+- **Data Structuring**: Used pandas to organize and present extracted entity data cleanly.  
+- **User-Centered Design**: Designed features to support usability, such as dynamic input, editable entity lists, and visual feedback.
+
+---
+
 ## 📚 References
 
 - [spaCy Documentation](https://spacy.io/usage)  
