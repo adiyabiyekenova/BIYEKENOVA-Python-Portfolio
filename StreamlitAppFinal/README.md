@@ -129,7 +129,6 @@ These resources were incredibly helpful in building the app and deepening my und
 - [📘 yFinance Python Library](https://pypi.org/project/yfinance/)  
 - [📘 Streamlit Official Documentation](https://docs.streamlit.io/)  
 - [📘 Plotly Express Overview](https://plotly.com/python/plotly-express/)  
-- [📘 Investopedia: Financial Ratios Guide](https://www.investopedia.com/terms/f/financial-ratio.asp)  
 
 ---
 
