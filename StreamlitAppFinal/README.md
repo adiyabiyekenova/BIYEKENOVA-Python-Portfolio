@@ -1,123 +1,135 @@
 # 📈 Investment Insights Streamlit App
 
-Welcome to the **Investment Insights App** — an interactive Streamlit dashboard for analyzing public companies using real-time financial data. Whether you're a student, investor, or simply curious, this tool makes it easy to visualize and understand key financial ratios.
+## 📌 Project Overview
+
+This interactive web application was developed as part of the *Elements of Computing II* class (Final Portfolio Update). Welcome to the **Investment Insights App** — a dynamic Streamlit dashboard that enables users to analyze public companies using real-time financial data. Whether you're a student, investor, or simply curious, this tool makes it easy to visualize and understand essential financial ratios.
 
 ---
 
 ## 🧠 Purpose of the App
 
-### Why I Chose to Build This App
+### 🎯 Academic Context
 
-As a Business Analytics student passionate about finance and technology, I wanted to build something that bridges both fields. The app was developed to:
+This app serves as my final project for the *Elements of Computing II* course in Spring 2025. The goal was to demonstrate the culmination of my coding knowledge gained over the past year. I believe this app effectively showcases the range and quality of skills I’ve developed — from technical coding abilities to problem-solving and design thinking.
+
+### 💡 Why I Built This App
+
+As a Business Analytics major with a strong interest in both finance and technology, I wanted to create a project that bridges these two domains. This app was built to:
 
 - Help users understand core financial health metrics  
-- Visualize real-world financial data in an intuitive, interactive way  
-- Enhance learning through self-directed exploration  
-- Strengthen my skills in API integration, data processing, and UI/UX design
+- Visualize real-world financial data in an intuitive and engaging way  
+- Encourage self-guided learning through interactive exploration  
+- Strengthen my technical skills in API integration, data processing, and UI/UX design  
+- Provide educational content that makes financial concepts accessible to everyone  
 
 ---
 
 ## 🖼️ App Interface – Main Page
 
-The main page serves as the starting point, guiding users through the app's features and core concepts. It also offers descriptions of each subpage for easier navigation.
+The main page introduces users to the app’s features and provides a guided overview. Each section includes descriptions and links to specialized pages for deeper exploration.
 
-### Screenshots:
+### 📸 Screenshots:
 - ![Screenshot 1](images/Screenshot1.png)
 - ![Screenshot 2](images/Screenshot2.png)
 - ![Screenshot 3](images/Screenshot3.png)
 - ![Screenshot 4](images/Screenshot4.png)
 
-At the bottom of the main page, users can navigate to three specialized pages that offer extended functionality.
+At the bottom of the main page, users can easily navigate to three dedicated subpages offering more advanced functionality.
 
 ---
 
-## 📂 App Structure
+## 📂 App Structure 
 
-The app is organized into multiple pages using Streamlit’s multipage architecture:
+The app is structured using Streamlit’s multipage feature for clarity and scalability:
 
-- **`Home.py`** – Main landing page with an overview and navigation  
-- **`pages/Historical_Prices.py`** – View historical performance of any stock over a selected date range  
+- **`Home.py`** – Landing page with project overview and navigation  
+- **`pages/Historical_Prices.py`** – Explore historical stock performance over a custom date range  
   - ![Screenshot 5](images/Screenshot5.png)
-- **`pages/Compare_Companies.py`** – Compare two companies based on key financial ratios  
+- **`pages/Compare_Companies.py`** – Compare two companies across multiple financial ratios  
   - ![Screenshot 6](images/Screenshot6.png)
-- **`pages/Valuation_Multiples.py`** – Visualize valuation ratios like P/E, P/B, and dividend yield  
+- **`pages/Valuation_Multiples.py`** – Visualize valuation metrics like P/E, P/B, and dividend yield  
   - ![Screenshot 7](images/Screenshot7.png)
 
 ---
 
-## 🚀 How to Run the App
+## ⚙️ How to Use the App
 
-### 🔧 Local Version
+### ✅ Prerequisites
+
+Ensure the following Python libraries are installed:
+
+- `pandas`  
+- `streamlit`  
+- `yfinance`  
+- `plotly`  
+- `matplotlib`  
+- `numpy`
+
+### 🖥️ Running the App Locally
 
 1. Clone the repository:  
-   `git clone https://github.com/adiyabiyekenova/BIYEKENOVA-Python-Portfolio.git`
+   `git clone https://github.com/adiyabiyekenova/BIYEKENOVA-Python-Portfolio/StreamlitAppFinal.git`
 
-2. Navigate to the app folder:  
-   `cd StreamlitAppFinal`
-
-3. Ensure Python 3.7+ is installed
-
-4. Install dependencies:  
-   `pip install -r requirements.txt`
-
-5. Launch the app:  
+2. Navigate to the app directory and run:  
    `streamlit run Home.py`
 
 ### 🌐 Deployed Version
 
-Access the deployed version here:  
-**[https://your-app-link.streamlit.app](https://your-app-link.streamlit.app)**
+Explore the deployed version of the app here:  
+[🔗 Launch App](https://adiyabiyekenova-biyekenova-python-por-nerstreamlitappapp-3utzrp.streamlit.app/)
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- 🔍 Search for publicly traded companies by stock ticker  
-- 📊 Display key financial ratios using interactive bar charts  
-- 🆚 Compare two companies side-by-side  
-- 📈 Explore historical stock prices over custom date ranges  
-- 💰 Visualize valuation multiples like P/E ratio and dividend yield  
-- 📘 Educational descriptions for all financial terms
+- 🔍 Search for public companies using stock tickers  
+- 📊 View financial ratios in real time with interactive bar charts  
+- 🆚 Compare companies side-by-side for better decision-making  
+- 📈 Analyze historical stock performance over custom time ranges  
+- 💰 Explore valuation multiples like P/E, P/B, and dividend yield  
+- 📘 Learn about each metric through in-app educational descriptions  
 
 ---
 
-## 🧑‍🎨 App Design & User Experience
+## 🧑‍🎨 Design & User Experience
 
-- Clean, user-friendly layout using `set_page_config` and Streamlit columns  
-- Emoji-enhanced headings for engaging design  
-- Optimized for both desktop and mobile use  
-- Interactive, scrollable, and dynamic Plotly charts  
-- Minimalistic aesthetic with clear instructions and visuals
+- Clean, intuitive layout with `set_page_config` and Streamlit’s responsive columns  
+- Emoji-enhanced headings to make navigation friendly and fun  
+- Optimized for both desktop and mobile viewing  
+- Interactive Plotly charts for dynamic data exploration  
+- Minimalist design with clear instructions and helpful visuals  
 
 ---
 
 ## 🛠️ Tools & Libraries Used
 
-- **Streamlit** – Web app framework  
+- **Streamlit** – Web application framework  
 - **yFinance** – Real-time stock and financial data API  
-- **Pandas** – Data manipulation and transformation  
-- **NumPy** – Numerical computations  
-- **Plotly Express** – Interactive data visualizations  
+- **Pandas** – Data analysis and manipulation  
+- **NumPy** – Numerical computing  
+- **Plotly Express** – Interactive visualizations  
 
 ---
 
 ## 📘 Skills Gained
 
-- Real-time API integration with yFinance  
-- Financial metric calculation from raw data  
-- UI design principles using Streamlit components  
-- Advanced data visualization with Plotly  
-- Building multi-page Streamlit applications  
-- Writing clear documentation and organizing code
+- Integrating real-time financial data using APIs  
+- Calculating financial metrics from raw data  
+- Applying UI/UX principles in a Streamlit app  
+- Creating advanced visualizations with Plotly  
+- Structuring a multi-page application  
+- Writing professional documentation and organizing code effectively  
 
 ---
 
-## 📚 References & Tutorials
+## 📚 References & Learning Resources
 
-- [yFinance Python Library](https://pypi.org/project/yfinance/)  
-- [Streamlit Official Documentation](https://docs.streamlit.io/)  
-- [Plotly Express Overview](https://plotly.com/python/plotly-express/)  
-- [Investopedia: Financial Ratios](https://www.investopedia.com/terms/f/financial-ratio.asp)
+These resources were incredibly helpful in building the app and deepening my understanding of Python and financial analysis:
+
+- [📘 yFinance Python Library](https://pypi.org/project/yfinance/)  
+- [📘 Streamlit Official Documentation](https://docs.streamlit.io/)  
+- [📘 Plotly Express Overview](https://plotly.com/python/plotly-express/)  
+- [📘 Investopedia: Financial Ratios Guide](https://www.investopedia.com/terms/f/financial-ratio.asp)  
 
 ---
 
