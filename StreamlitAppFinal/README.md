@@ -76,7 +76,7 @@ Ensure the following Python libraries are installed:
 ### 🌐 Deployed Version
 
 Explore the deployed version of the app here:  
-[🔗 Launch App](https://adiyabiyekenova-biyekenova-python-por-nerstreamlitappapp-3utzrp.streamlit.app/)
+[🔗 Launch App](https://biyekenova-python-portfolio-finalapp.streamlit.app/)
 
 ---
 
