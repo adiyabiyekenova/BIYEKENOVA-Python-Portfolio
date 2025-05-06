@@ -114,7 +114,7 @@ This project demonstrates my understanding of **Natural Language Processing** co
 4. Use the deployed version (https://adiyabiyekenova-biyekenova-python-por-nerstreamlitappapp-3utzrp.streamlit.app/)
 
 ### 🖼️ Screenshot 
-![App Screenshot](NERStreamlitApp/images/Output1.png)
+![App Screenshot](NERStreamlitApp/images/Output7.png)
 
 **Feel free to explore the app and test it with your own text!**
 
@@ -158,3 +158,5 @@ As my final project for *Elements of Computing II*, this app demonstrates:
 ## 📸 Screenshot
 
 ![Investment Insights App Screenshot](StreamlitAppFinal/images/Screenshot1.png)
+
+**Feel free to explore the app and learn about finance!**
