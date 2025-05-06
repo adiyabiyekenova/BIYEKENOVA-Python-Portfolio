@@ -35,6 +35,8 @@ This project includes my **first Streamlit app** that displays a sample dataset 
 
 ### Instructions 
 
+### Screenshot
+
 ---
 
 ## Tidy Data Project 📊
@@ -58,6 +60,8 @@ This project demonstrates my ability to work with raw data, perform transformati
 1. Navigate to the `TidyData-Project` folder.
 2. Read the initial README page.
 3. Launch and run the Jupyter notebook.
+
+### Screenshot 
 
 **Feel free to explore and learn from the project!**
 
@@ -91,5 +95,22 @@ This project demonstrates my understanding of **Natural Language Processing** co
 2. Read the initial README page.
 3. Launch and run the Jupyter notebook.
 
+### Screenshot 
+
 **Feel free to explore the app and test it with your own text!**
+
+---
+
+## Investment Final Streamlit App 🌟
+This project includes my **first Streamlit app** that displays a sample dataset and allows interactive filtering options. You can find the app inside the [basic-streamlit-app folder](basic-streamlit-app). 
+
+### What the App Does
+
+### Why It Matters 
+
+### How It Complements My Portfolio 
+
+### Instructions 
+
+### Screenshot
 
