@@ -14,7 +14,7 @@ This app shows you **key financial ratios** for 20 major companies based on pre-
 # Load Excel data
 @st.cache_data
 def load_data():
-    df = pd.read_excel("databases/Valuation.xlsx")  
+    df = pd.read_excel("Valuation.xlsx")  
     df.set_index("Company", inplace=True)
     return df
 

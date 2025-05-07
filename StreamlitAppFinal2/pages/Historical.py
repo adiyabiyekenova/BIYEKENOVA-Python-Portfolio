@@ -41,7 +41,7 @@ if start_date > end_date:
 else:
     try:
         # Load data from the corresponding Excel file
-        df = pd.read_excel(f"databases/{ticker}_Stock.xls")
+        df = pd.read_excel(f"{ticker}_Stock.xls")
 
         # Ensure the 'Date' column is datetime
         df['Date'] = pd.to_datetime(df['Date'])
