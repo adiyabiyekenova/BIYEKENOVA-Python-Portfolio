@@ -81,8 +81,5 @@ else:
             comparison_df = pd.DataFrame(data)
             st.subheader(f"📊 Side-by-Side Comparison: {ticker1} vs {ticker2}")
             st.dataframe(comparison_df)
-
-    except FileNotFoundError:
-        st.error("❌ 'Compare.xlsx' not found. Please ensure it is in the same directory as this app.")
     except Exception as e:
         st.error(f"🚨 Error reading data: {e}")

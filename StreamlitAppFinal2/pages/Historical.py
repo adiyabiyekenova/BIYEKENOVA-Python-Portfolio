@@ -61,8 +61,5 @@ else:
             ax.set_title(f'{ticker} Closing Prices')
             ax.grid(True)
             st.pyplot(fig)
-
-    except FileNotFoundError:
-        st.error(f"🚫 File {ticker}.xls not found. Please make sure it's in the same folder as this script.")
     except Exception as e:
         st.error(f"🚨 Error loading data: {e}")
