@@ -61,7 +61,7 @@ if ticker1 == ticker2:
 else:
     try:
         # Load the Excel file
-        df = pd.read_excel("databases/Compare.xlsx")
+        df = pd.read_excel("Compare.xlsx")
 
         # Filter to the selected companies
         selected_df = df[df["Company"].isin([ticker1, ticker2])]
