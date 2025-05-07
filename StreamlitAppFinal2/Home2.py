@@ -80,13 +80,13 @@ with col2:
     # Create buttons for the user to navigate to different pages
     # When clicked, the link to the page appears 
     if st.button("📈 Historical Prices"):
-        st.page_link("pages/Historical_Prices.py")
+        st.page_link("pages/Historical.py")
         
     if st.button("🏢 Compare Companies"):
-        st.page_link("pages/Compare_Companies.py")
+        st.page_link("pages/Compare.py")
         
     if st.button("💰 Valuation Multiples"):
-        st.page_link("pages/Valuation_Multiples.py")
+        st.page_link("pages/Valuation.py")
 
     # Add another horizontal line for separation
     st.write("---")

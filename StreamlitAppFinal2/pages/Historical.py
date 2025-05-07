@@ -55,7 +55,7 @@ else:
         else:
             # Plotting the data
             fig, ax = plt.subplots(figsize=(10, 5))
-            ax.plot(filtered_df['Date'], filtered_df['Close'], label='Close Price', color='blue')
+            ax.plot(filtered_df['Date'], filtered_df['Close Price'], label='Close Price', color='blue')
             ax.set_xlabel('Date')
             ax.set_ylabel('Close Price (USD)')
             ax.set_title(f'{ticker} Closing Prices')
